@@ -13,7 +13,6 @@ namespace ArrayMul
             customCulture.NumberFormat.NumberDecimalSeparator = ".";
 
             // Converter argumentos para floats
-            args = Console.ReadLine().Split();
             float a11 = float.Parse(args[0]);
             float a12 = float.Parse(args[1]);
             float a21 = float.Parse(args[2]);

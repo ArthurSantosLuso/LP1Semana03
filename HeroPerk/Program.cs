@@ -11,9 +11,9 @@ namespace HeroPerk
             Perks myPerks = new Perks();
             bool skip = false;
 
-            string input = Console.ReadLine();
+            //string input = Console.ReadLine();
 
-            foreach (char carater in input)
+            foreach (char carater in args[0])
             {
                 // fazer toggle dos perks
                 switch (carater)

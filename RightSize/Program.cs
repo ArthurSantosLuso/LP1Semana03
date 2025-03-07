@@ -6,15 +6,9 @@ namespace RightSize
     {
         private static void Main(string[] args)
         {
-            // Definir a variavel do tipo array de string
-            string[] palavras;
-
-            // Pedir ao utilizador as strings
-            palavras = Console.ReadLine().Split(" ");
-
 
             // ciclo para percorrer cada palavra dentro da string
-            foreach(string palavra in palavras)
+            foreach(string palavra in args)
             {
 
                 if(palavra.Length >= 8)
